@@ -1,0 +1,16 @@
+ALTER TABLE CLIENTE ADD CONSTRAINT CHK1_CLIENTE CHECK (ATIVO IN ('T','F'));
+insert into cliente values(1,'T','Cliente 1');
+insert into cliente values(2,'T','Cliente 2');
+insert into cliente values(3,'T','Cliente 3');
+insert into cliente values(4,'T','Cliente 4');
+insert into cliente values(5,'T','Cliente 5');
+insert into cliente values(6,'T','Cliente 6');
+insert into cliente values(7,'T','Cliente 7');
+insert into cliente values(8,'T','Cliente 8');
+insert into cliente values(9,'T','Cliente 9');
+insert into cliente values(10,'T','Cliente 10');
+insert into cliente values(11,'T','Cliente 11');
+insert into cliente values(12,'T','Cliente 12');
+insert into cliente values(13,'T','Cliente 13');
+insert into cliente values(14,'T','Cliente 14');
+insert into cliente values(15,'T','Cliente 15');
